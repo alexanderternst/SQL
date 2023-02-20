@@ -18,10 +18,10 @@ In SQL habe ich schon T-SQL Befehle, für das Kreieren, modifizieren, und lesen 
 Ein ERM (Entity Relationship Model) beschreibt Tabellen, Schemas und Beziehungen einer Datenbank.  
 Bevor man anfängt die Datenbank zu erstellen und mit Daten zu befüllen sollte man immer ein ERM zuerst erstellen.  
 Hier ist ein Beispiel von einem ERM Diagramm:  
-![ERM](https://github.com/alexanderternst/sql-project/blob/main/SQL/lager/Lager_Datenbank_ERM.png?raw=true)
+![ERM](https://github.com/alexanderternst/SQL/blob/main/SQL/lager/Lager_Datenbank_ERM.png?raw=true)
 
-[PNG herunterladen](https://github.com/alexanderternst/sql-project/blob/main/SQL/lager/Lager_Datenbank_ERM.png?raw=true)  
-[XML herunterladen](https://raw.githubusercontent.com/alexanderternst/sql-project/main/SQL/lager/Lager_ERM.xml)
+[PNG herunterladen](https://github.com/alexanderternst/SQL/blob/main/SQL/lager/Lager_Datenbank_ERM.png?raw=true)  
+[XML herunterladen](https://raw.githubusercontent.com/alexanderternst/SQL/main/SQL/lager/Lager_ERM.xml)
 
 ---
 
@@ -32,30 +32,30 @@ Hier sind zwei völlig funktionierende Beispiele, von T-SQL Befehlen (z.B. Daten
 Ich habe auch ein drittes Beispiel, was auf das erste aufbaut, aber nicht völlig funktioniert, da eine Tabelle fehlt.  
 
 Umsetzung von obigem ERM (Lagersystem) in T-SQL mit allen Verbindungen und Beziehungen (funktionierend):  
-[1. Datenbank und Tabellen erstellen (T-SQL)](https://raw.githubusercontent.com/alexanderternst/sql-project/main/SQL/lager/Lager_Datenbank.sql)  
-[2. Erstellen von Tabelle für Import von Daten (T-SQL)](https://raw.githubusercontent.com/alexanderternst/sql-project/main/SQL/lager/Lager_Datenbank_ArtikelImport.sql)
+[1. Datenbank und Tabellen erstellen (T-SQL)](https://raw.githubusercontent.com/alexanderternst/SQL/main/SQL/lager/Lager_Datenbank.sql)  
+[2. Erstellen von Tabelle für Import von Daten (T-SQL)](https://raw.githubusercontent.com/alexanderternst/SQL/main/SQL/lager/Lager_Datenbank_ArtikelImport.sql)
 
 ### Import von Daten aus Tabelle
 
 Mit Merge Statements und Stored Procedures können wir Tabellen befüllen und Daten modifizieren. In diesem Beispiel befüllen wir unsere Tabellen in unserem Lagersystem mit Daten aus einer anderen Tabelle.  
 
 Umsetzung von Stored Procedures und Merge Statements (funktionierend):  
-[1. Import von Daten (T-SQL)](https://raw.githubusercontent.com/alexanderternst/sql-project/main/SQL/lager/Lager_Datenbank_Import.sql)  
-[2. Import von Daten (T-SQL)](https://raw.githubusercontent.com/alexanderternst/sql-project/main/SQL/lager/Lager_Datenbank_Import_2.sql)  
+[1. Import von Daten (T-SQL)](https://raw.githubusercontent.com/alexanderternst/SQL/main/SQL/lager/Lager_Datenbank_Import.sql)  
+[2. Import von Daten (T-SQL)](https://raw.githubusercontent.com/alexanderternst/SQL/main/SQL/lager/Lager_Datenbank_Import_2.sql)  
 
 ### Select Statements
 
 Select Statements können wir benutzen, um Datenbanken und Tabellen abzufragen. In diesem Beispiel gibt es mehrere Select Statements, Inner und Cross Joins und die Modifizierung/Abfrage von Datensätzen.
 
 Umsetzung von Select Statements:  
-[Select Statements (T-SQL)](https://raw.githubusercontent.com/alexanderternst/sql-project/main/SQL/lager/Lager_Datenbank_Select.sql)  
+[Select Statements (T-SQL)](https://raw.githubusercontent.com/alexanderternst/SQL/main/SQL/lager/Lager_Datenbank_Select.sql)  
 
 ### Indexierung/Transaktionen
 
 Hier habe ich noch ein Beispiel eines SQL-Skriptes, indem ich die Indexierung kennengelernt habe. Zusätzlich habe ich auch noch Transaktionen kennengelernt, welche ich in diesem Skript auch mit verschiedenen Isolationsstufen verwendet habe.  
 Transaktionen sind mehrere unteilbare (atomare) Operationen, welche in einer Datenbank ausgeführt werden. Diese werden entweder alle ausgeführt (Commit) oder alle nicht ausgeführt (Rollback), dies heisst auch alles oder nichts Prinzip.
 
-[Transaktionen und Indexierung (T-SQL)](https://raw.githubusercontent.com/alexanderternst/sql-project/main/SQL/transaktion-index/Banken.sql) 
+[Transaktionen und Indexierung (T-SQL)](https://raw.githubusercontent.com/alexanderternst/SQL/main/SQL/transaktion-index/Banken.sql) 
 
 ---
 
@@ -69,7 +69,7 @@ Hier habe ich zwei Beispiele, eines, welches mit ADO.NET erstellt wurde und eine
 Hier habe ich ein Beispiel von mehreren Abfragen unseres Lagersystems, welche durch ADO.NET in einem C# Konsolen-Projekt umgesetzt wurden.  
 Natürlich müssen Sie in dem appsettings.json File ihren Connection String (Server, Datenbank, Authentifizierung) angeben, damit das Programm richtig läuft.
 
-[Projekt finden Sie im Ordner SQL/ADONET](https://github.com/alexanderternst/sql-project/tree/main/SQL/ADONET)  
+[Projekt finden Sie im Ordner SQL/ADONET](https://github.com/alexanderternst/SQL/tree/main/SQL/ADONET)  
 
 ### OR-Mapper
 
