@@ -32,8 +32,8 @@ Hier sind zwei völlig funktionierende Beispiele, von T-SQL Befehlen (z.B. Daten
 Ich habe auch ein drittes Beispiel, was auf das erste aufbaut, aber nicht völlig funktioniert, da eine Tabelle fehlt.  
 
 Umsetzung von obigem ERM (Lagersystem) in T-SQL mit allen Verbindungen und Beziehungen (funktionierend):  
-[1. Datenbank und Tabellen erstellen (T-SQL)](https://raw.githubusercontent.com/alexanderternst/SQL/main/SQL/lager/Lager_Datenbank.sql)  
-[2. Erstellen von Tabelle für Import von Daten (T-SQL)](https://raw.githubusercontent.com/alexanderternst/SQL/main/SQL/lager/Lager_Datenbank_ArtikelImport.sql)
+[1. Datenbank und Tabellen erstellen (T-SQL)](https://raw.githubusercontent.com/alexanderternst/SQL/master/SQL/lager/Lager_Datenbank.sql)  
+[2. Erstellen von Tabelle für Import von Daten (T-SQL)](https://raw.githubusercontent.com/alexanderternst/SQL/master/SQL/lager/Lager_Datenbank_ArtikelImport.sql)
 
 ### Import von Daten aus Tabelle
 
@@ -48,7 +48,7 @@ Umsetzung von Stored Procedures und Merge Statements (funktionierend):
 Select Statements können wir benutzen, um Datenbanken und Tabellen abzufragen. In diesem Beispiel gibt es mehrere Select Statements, Inner und Cross Joins und die Modifizierung/Abfrage von Datensätzen.
 
 Umsetzung von Select Statements:  
-[Select Statements (T-SQL)](https://github.com/alexanderternst/SQL/blob/master/SQL/lager/Lager_Datenbank_Select.sql)  
+[Select Statements (T-SQL)](https://raw.githubusercontent.com/alexanderternst/SQL/master/SQL/lager/Lager_Datenbank_Select.sql)  
 
 ### Indexierung/Transaktionen
 
