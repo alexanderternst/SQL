@@ -77,6 +77,5 @@ Der Nachteil, wenn wir ADO.NET verwenden ist, dass wir immer noch T-SQL Statemen
 Mit einem OR-Mapper System können wir dies, eliminieren, da wir hier keine SQL Befehle mehr schreiben, sondern Datenbanken mit Klassen nach OOP erstellen.  
 Bei OR-Mapper systemen gibt es zwei Ansätze, Database-First (Db-First) und Code-First.  
 Bei Db-First erstellen wir erst die Datenbanken mit T-SQL und importieren diese dann in einem OR-Mapper System, und bei Code-First erstellen wir die Datenbank auch mit einem OR-Mapper System.  
-In C# (die Programmiersprache, die wir hier verwenden), wird ein OR-Mapper System mit dem Entity Framework durhcgeführt.  
+In C# (die Programmiersprache, die wir hier verwenden), wird ein OR-Mapper System mit dem Entity Framework durchgeführt.  
 Ein Beispiel eines Code-First Ansatzes finden Sie in meinem [Web API](https://github.com/alexanderternst/JetstreamSkiserviceAPI) welches mit einem Code-First Datenbank System durchgeführt wurde.  
-Hier habe ich jetzt noch ein Beispiel eines Entity Framework (Db-First) Projektes von unserem Lagersystem:
