@@ -79,3 +79,5 @@ Bei OR-Mapper systemen gibt es zwei Ansätze, Database-First (Db-First) und Code
 Bei Db-First erstellen wir erst die Datenbanken mit T-SQL und importieren diese dann in einem OR-Mapper System, und bei Code-First erstellen wir die Datenbank auch mit einem OR-Mapper System.  
 In C# (die Programmiersprache, die wir hier verwenden), wird ein OR-Mapper System mit dem Entity Framework durchgeführt.  
 Ein Beispiel eines Code-First Ansatzes finden Sie in meinem [Web API](https://github.com/alexanderternst/JetstreamSkiserviceAPI) welches mit einem Code-First Datenbank System durchgeführt wurde.  
+Hier habe ich jetzt noch ein Beispiel eines Entity Framework (Db-First) Projektes von unserem Lagersystem:  
+[Projekt finden Sie im Ordner SQL/efzLagerEFDbFirst](https://github.com/alexanderternst/SQL/tree/master/SQL/efzLagerEFDbFirst)
